@@ -1,0 +1,86 @@
+body {
+	background-image: url(../img/fundo.png);
+	font-size: 20;
+	font-family: Handlee,"Dancing+Script", cursive;
+
+
+}
+header{
+	display: flex;
+	flex-direction:  column;
+	align-items: center;
+	padding-top:100px;
+
+}
+img{
+	padding-top: 100px;
+	
+
+}
+
+
+}
+section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	padding: 10px;
+
+}
+}
+p{
+	font-family: "Dancing+Script",Handlee, cursive;
+	font-size: 20;
+}
+/*cabecalho ou barra d enegação*/
+
+.logo img{
+	width: 200;
+	height: 200;
+	border-radius: 50%;
+	padding: 10px;
+}
+.logo {
+
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: stretch;
+		padding: 10px;
+}
+nav ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	width: 100%;
+}
+nav ul li{
+	text-align: center;
+	width: 100%;
+	font-size: 1.5em;
+	padding: 2%;
+}
+nav ul li a {
+	display: inline-block;
+	padding: 10px;
+	width: 100%;
+	text-decoration: none;
+	color: #fff;
+}
+@media screen and (min width: 768px){
+	.logo {
+		flex-direction: column;
+		justify-content: space-around;
+
+	}
+
+nav {
+	flex-direction: row;
+	width: 70%;
+}
+footer{
+	background-image:  url(../img/novofooter.png);
+	background-size: cover;
+}
